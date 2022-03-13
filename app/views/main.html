@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Hi! I'm Kier</title>
+    <meta charset="${_response_encoding}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/public/stylesheets/main.css"rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script rel="javascript" type="text/javascript" src="/public/javascripts/mainpage-js"></script>
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="nav-logo-container">
+            <h1 class="nav-logo" >.KVS</h1>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" align="middle">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="Home#aboutcover">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Home#aboutme">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Skills#">EXPERIENCES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+        #{ doLayout /}
+    </body>
+
+   <!-- footer-->
+    <div class="contactBG">
+
+        <h1>CONTACT ME</h1>
+    </div>
+    <div class="contact">
+        <div class="containerContact" id="contact">
+            <h1 class="text"><img class="logo" src="public/images/location logo.png">Calamba City(4027) Laguna, Philippines</h1>
+            <h1 class="text"><img class="logo" src="public/images/email_logo.png">Email: <a href="mailto:kiervincent.salano@gmail.com">kiervincent.salano@gmail.com</a></h1>
+            <h1 class="text"><img class="logophone" src="public/images/contact_logo.png">Phone: +639168323845</h1>
+
+            <h1 class="social">SOCIAL MEDIA</h1>
+            <div class="socialContainer">
+                <a class="logolink" href="https://www.facebook.com/kiervincent.salano" target="_blank"><img class="logofb" src="public/images/fb_logo.png"></a>
+                <a class="logolink" href="https://twitter.com/kiervicente" target="_blank"><img class="logotwitter" src="public/images/twitter_logo.png"></a>
+                <a class="logolink" href="https://www.instagram.com/vincekierr/" target="_blank"><img class="logoig" src="public/images/ig_logo.png"></a>
+                <a class="logolink" href="https://www.linkedin.com/in/kier-vincent-salaño-3510861a1/" target="_blank"><img class="logolinked" src="public/images/linkedin_logo.png"></a>
+            </div>
+        </div>
+    </div>
+</html>
